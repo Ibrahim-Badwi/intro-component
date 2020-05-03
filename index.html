@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-info">
+      <h1>Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+
+    <div class="form-container">
+      <div class="offer">
+        <strong>Try it free 7 days</strong> then &dollar;20/mo. thereafter
+      </div>
+
+      <form action="127.0.0.1:8000/" method="POST">
+        <div class="input-container">
+          <input id="first-name" type="text" placeholder="First Name" required>
+          <span class="note">First Name cannot be empty</span cla>
+        </div>
+        <div class="input-container">
+          <input id="last-name" type="text" placeholder="Last Name" required>
+          <span class="note">Last Name cannot be empty</span>
+        </div>
+        <div class="input-container">
+          <input id="email" type="email" placeholder="Email Address" required>
+          <span class="note">Looks like this is not an email</span>
+        </div>
+        <div class="input-container">
+          <input id="password" type="password" placeholder="Password" required>
+          <span class="note">Password cannot be empty</span>
+        </div>
+        <button type="submit">Claim your free trial </button>
+        <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </form>
+    </div>
+
+    <footer>
+      <p class="attribution" hidden>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Ibrahim Badwi</a>.
+      </p>
+    </footer>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
